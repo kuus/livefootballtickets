@@ -1,0 +1,9 @@
+{
+  "appName": "LiveFootballTickets",
+  "nav": [
+    {
+      "name": "About",
+      "url": "/about"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "more": true,
+  "errors": null,
+  "result": {
+    "top": [{
+      "id": 20641,
+      "name": "Arsenal",
+      "url": "club.html"
+    }],
+    "events": [{
+      "id": 20642,
+      "name": "Arsenal v Burnley",
+      "date": "Tue 01 Nov 2016 19:45",
+      "url": "match.html"
+    }, {
+      "id": 20568,
+      "name": "Arsenal v Everton",
+      "date": "Tue 01 Nov 2016 19:45",
+      "url": "match.html"
+    }, {
+      "id": 20604,
+      "name": "Arsenal v Hull City",
+      "date": "Tue 01 Nov 2016 19:45",
+      "url": "match.html"
+    }, {
+      "id": 20534,
+      "name": "Arsenal v West Ham United",
+      "date": "Tue 01 Nov 2016 19:45",
+      "url": "match.html"
+    }, {
+      "id": 20848,
+      "name": "Bournemouth v Arsenal",
+      "date": "Tue 01 Nov 2016 19:45",
+      "url": "match.html"
+    }, {
+      "id": 20531,
+      "name": "Liverpool v Arsenal",
+      "date": "Tue 01 Nov 2016 19:45",
+      "url": "match.html"
+    }, {
+      "id": 20567,
+      "name": "Manchester United v Arsenal",
+      "date": "Tue 01 Nov 2016 19:45",
+      "url": "match.html"
+    }, {
+      "id": 20520,
+      "name": "Middlesbrough v Arsenal",
+      "date": "Tue 01 Nov 2016 19:45",
+      "url": "match.html"
+    }, {
+      "id": 20625,
+      "name": "Stoke City v Arsenal",
+      "date": "Tue 01 Nov 2016 19:45",
+      "url": "match.html"
+    }, {
+      "id": 20840,
+      "name": "Arsenal v Bournemouth",
+      "date": "Tue 01 Nov 2016 19:45",
+      "url": "match.html"
+    }],
+    "categories": [{
+      "id": 30642,
+      "name": "Mars League",
+      "url": "league.html"
+    }],
+    "teams": [{
+      "id": 99997,
+      "name": "Arsenal",
+      "url": "club.html"
+    }, {
+      "id": 99998,
+      "name": "Marsille",
+      "url": "club.html"
+    }],
+    "stadiums": [{
+      "id": 989,
+      "name": "AOL Arena",
+      "url": "league.html"
+    }, {
+      "id": 2337,
+      "name": "Arena Forte Nova",
+      "url": "league.html"
+    }, {
+      "id": 2169,
+      "name": "Arena Gdansk",
+      "url": "league.html"
+    }, {
+      "id": 2391,
+      "name": "Arena Khimki",
+      "url": "league.html"
+    }, {
+      "id": 2334,
+      "name": "Arena Pernanbuco",
+      "url": "league.html"
+    }, {
+      "id": 2389,
+      "name": "Arena St Gallen",
+      "url": "league.html"
+    }, {
+      "id": 2390,
+      "name": "Arena Thun",
+      "url": "league.html"
+    }, {
+      "id": 2407,
+      "name": "Arena da Baixada",
+      "url": "league.html"
+    }, {
+      "id": 2402,
+      "name": "Arena de Sao Paulo",
+      "url": "league.html"
+    }, {
+      "id": 2412,
+      "name": "Blue Water Arena",
+      "url": "league.html"
+    }],
+    "cities": []
+  }
+}

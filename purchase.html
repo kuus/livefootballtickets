@@ -1,0 +1,846 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>LiveFootballTickets</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory-->
+    <link href="http://fonts.googleapis.com/css?family=Dosis:300,400,600,700,800|Open+Sans:300italic,400italic,400,300,700" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="styles/vendor.css?v=9d1e64ce2d7a7073a38c09da7043b0cc" inline>
+    <link rel="stylesheet" href="styles/app.css?v=b5ea2749ef537dedc739ba8aeee1f926" inline>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--[if lt IE 9]>
+<link href="/respond.proxy.gif" id="respond-redirect" rel="respond-redirect"/>
+<script src="/respond.min.js"></script>
+<![endif]-->
+    <style>
+      @-webkit-viewport {
+        width: device-width;
+      }
+      
+      @-moz-viewport {
+        width: device-width;
+      }
+      
+      @-ms-viewport {
+        width: device-width;
+      }
+      
+      @-o-viewport {
+        width: device-width;
+      }
+      
+      @viewport {
+        width: device-width;
+      }
+    </style>
+    <script>
+      if (navigator.userAgent.match(/IEMobile\/10\.0/))
+      {
+        var msViewportStyle = document.createElement('style');
+        msViewportStyle.appendChild(document.createTextNode('@-ms-viewport{width:auto!important}'));
+        document.querySelector('head').appendChild(msViewportStyle);
+      }
+    </script>
+  </head>
+  <body class="page--purchase">
+    <div id="fb-root"></div>
+    <!-- section: header -->
+    <div class="header">
+      <!-- partial: header_top -->
+      <div class="header-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-7 col-sm-5">
+              <div class="wrap wrap-verified">
+                <img src="images/verified.png" alt="Verified by VISA, MasterCard SecureCode, McAfee Secure" width="135" class="img-responsive" />
+              </div>
+              <div class="wrap wrap-mcafee">
+                <a href="#">
+                  <img src="images/mcafee-secure.png" alt="McAfee Secure" class="img-responsive" />
+                </a>
+              </div>
+              <div class="wrap wrap-fb">
+                <div data-href="https://www.facebook.com/LiveFootballTickets" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false" class="hidden-xs fb-like"></div>
+              </div>
+            </div>
+            <div class="col-sm-7 hidden-xs contact-info">
+              <span class="text-uppercase">
+                <span class="text-primary">UK tel:</span> 0-871-284-5277 (outside UK?)</span>
+              <a href="/content.html" class="faq-link">Customer Service & FAQs</a>
+            </div>
+            <div class="col-xs-5 visible-xs-block text-uppercase contact-info">
+              <div class="text-muted">
+                <i class="icon icon-phone"></i> UK tel</div>
+              <div class="telephone">0-871-284-5277</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- endpartial: header_top -->
+      <div class="header-middle">
+        <!-- partial: header_main -->
+        <header class="header-main">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-3">
+                <a href="/" class="logo">
+                  <div class="logo-title text-hide">
+                    <img src="images/logo.png" alt="LiveFootballTickets: Reliable, secure, enjoy the match." class="logo-img img-responsive" />LiveFootballTickets</div>
+                  <div class="logo-subtitle text-hide">Reliable, secure, enjoy the match.</div>
+                </a>
+              </div>
+              <div class="col-sm-6 col-sm-offset-3">
+                <div class="search">
+                  <h5 class="search-label hidden-xs">Find your football tickets here:</h5>
+                  <form action="/" type="POST"></form>
+                  <div class="input-group">
+                    <input id="search-main" name="" placeholder="Enter team, venue or city" class="form-control input-lg" />
+                    <span class="input-group-btn">
+                      <button type="submit" class="btn btn-lg btn-primary">
+                        <i class="icon icon-search"></i>
+                        <span class="hidden-xs">Search</span>
+                      </button>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <!-- endpartial: header_main -->
+        <!-- partial: header_navbar -->
+        <nav id="navbar" class="header-navbar navbar navbar-default navbar-expander">
+          <div class="container">
+            <button type="button" data-toggle="collapse" data-target="#main-menu" class="navbar-toggle collapsed">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div id="main-menu" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active">
+                  <a href="/">Home</a>
+                </li>
+                <li class="dropdown">
+                  <a href="/league.html">Football Leagues</a>
+                  <button data-toggle="dropdown" aria-expanded="false" class="dropdown-toggle">
+                    <span class="caret"></span>
+                  </button>
+                  <ul role="menu" class="dropdown-menu">
+                    <li>
+                      <a href="/league.html">About</a>
+                    </li>
+                    <li>
+                      <a href="/league.html">Contact</a>
+                    </li>
+                    <li>
+                      <a href="/league.html">Contact</a>
+                    </li>
+                    <li>
+                      <a href="/league.html">About</a>
+                    </li>
+                    <li>
+                      <a href="/league.html">Contact</a>
+                    </li>
+                    <li>
+                      <a href="/league.html">Contact</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="/league.html">Football Cups</a>
+                  <button data-toggle="dropdown" aria-expanded="false" class="dropdown-toggle">
+                    <span class="caret"></span>
+                  </button>
+                  <ul role="menu" class="dropdown-menu">
+                    <li>
+                      <a href="/content.html">About</a>
+                    </li>
+                    <li>
+                      <a href="/content.html">Contact</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="/match.html">Other matches</a>
+                  <button data-toggle="dropdown" aria-expanded="false" class="dropdown-toggle">
+                    <span class="caret"></span>
+                  </button>
+                  <ul role="menu" class="dropdown-menu">
+                    <li>
+                      <a href="/match.html">About</a>
+                    </li>
+                    <li>
+                      <a href="/match.html">Contact</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="/match.html">Stadium tickets</a>
+                  <button data-toggle="dropdown" aria-expanded="false" class="dropdown-toggle">
+                    <span class="caret"></span>
+                  </button>
+                  <ul role="menu" class="dropdown-menu">
+                    <li>
+                      <a href="/content.html">About</a>
+                    </li>
+                    <li>
+                      <a href="/content.html">Contact</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- endpartial: header_navbar -->
+      </div>
+      <!-- partial: header_info -->
+      <div class="header-info">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4 col-md-3">
+              <h4>
+                <i class="icon icon-checkmark"></i>In business
+                <strong class="text-primary"> since 2004</strong>
+              </h4>
+            </div>
+            <div class="col-sm-4 col-md-3 hidden-xs hidden-sm">
+              <h4>
+                <i class="icon icon-checkmark"></i>
+                <strong class="text-primary">150%</strong> money-back guarantee</h4>
+            </div>
+            <div class="col-sm-4 col-md-3 hidden-xs">
+              <h4>
+                <i class="icon icon-checkmark"></i>
+                <strong class="text-primary">Secure</strong> payment</h4>
+            </div>
+            <div class="col-sm-4 col-md-3 hidden-xs">
+              <h4>
+                <i class="icon icon-checkmark"></i>
+                <strong class="text-primary">Real-time</strong> inventory</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- endpartial: header_info -->
+    </div>
+    <!-- endsection: header -->
+    <!--[if lt IE 8]>
+    <div class="alert alert-warning browserupgrade text-center"><p><small>You are using an <strong>outdated</strong> browser. Please <a class="text-danger" href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</small></p></div>
+  <![endif]-->
+    <div class="container">
+      <!-- macro: modal_terms -->
+      <div id="modal-terms" tabindex="-1" role="dialog" aria-labelledby="termsModal" aria-hidden="true" class="modal fade">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" data-dismiss="modal" aria-label="Close" class="close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <h4 class="text-primary text-uppercase">Terms and Conditions</h4>
+            </div>
+            <div class="modal-body">
+              <img src="images/ajax-loader.gif" width="32" height="32" class="modal-remote-loading"> </div>
+          </div>
+        </div>
+      </div>
+      <!-- endmacro -->
+      <!-- macro: modal_cvv2 -->
+      <div id="modal-cvv2" tabindex="-1" role="dialog" aria-labelledby="cvv2Modal" aria-hidden="true" class="modal fade">
+        <div class="modal-dialog modal-no-title">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" data-dismiss="modal" aria-label="Close" class="close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="images/creditcard.gif" class="img-responsive center-block">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- endmacro -->
+      <!-- macro: modal_whyBook -->
+      <div id="modal-why-book" tabindex="-1" role="dialog" aria-labelledby="whyBookModal" aria-hidden="true" class="modal fade">
+        <div class="modal-dialog modal-no-title">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" data-dismiss="modal" aria-label="Close" class="close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <!-- macro: box_whyBookWithUs -->
+              <div id="why-book-with-us" class="box">
+                <h3 class="text-center text-primary">Why book with us?</h3>
+                <ul class="box-list box-list--features">
+                  <li>
+                    <i class="icon icon-checkmark"></i>150% money-back guarantee</li>
+                  <li>
+                    <i class="icon icon-checkmark"></i>Real-time inventory</li>
+                  <li>
+                    <i class="icon icon-checkmark"></i>Friendly customer service</li>
+                  <li>
+                    <i class="icon icon-checkmark"></i>Secure payment</li>
+                  <li>
+                    <i class="icon icon-checkmark"></i>Last minute bookings</li>
+                  <li>
+                    <i class="icon icon-checkmark"></i>7 years online serving fans</li>
+                </ul>
+              </div>
+              <!-- endmacro -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- endmacro -->
+      <div class="row">
+        <div class="col-md-8 col-lg-9">
+          <div class="row">
+            <form class="col-sm-12 form-horizontal form-purchase">
+              <div class="box-header match">
+                <h2 class="box-header--title">English Premiership: Chelsea v Stoke City Tickets</h2>
+                <p>Saturday, 4 April 2015&nbsp;17:30</p>
+                <p>Stamford Bridge, London, United Kingdom</p>
+              </div>
+              <div class="box breath-md-top">
+                <h3>Please Review Your Order Details</h3>
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">Your ticket</label>
+                  <div class="col-sm-7 breath">Section: West Stand Upper Tier Seating, Row: Block 7 - Longside</div>
+                </div>
+                <div class="form-group">
+                  <label for="inputCountry" class="col-sm-2 control-label">Purchase</label>
+                  <div class="col-sm-7">
+                    <div class="row">
+                      <div class="col-xs-3">
+                        <select name="" onchange="javascript:setTimeout('__doPostBack('ctl00$cphBody$ucShippingMethod$drpQty','')', 0)" class="form-control">
+                          <option selected="selected" value="1">1</option>
+                        </select>
+                      </div>
+                      <div class="col-xs-9 breath-xs">ticket(s)
+                        <span> at &pound; 99.75 (&euro; 136.08)</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputCountry" class="col-sm-2 required control-label">Shipping option(s)</label>
+                  <div class="col-sm-7">
+                    <select name="" required="true" onchange="javascript:setTimeout('__doPostBack('ctl00$cphBody$ucShippingMethod$drpShipping','')', 0)" class="form-control">
+                      <option selected="selected" value="-1"></option>&#x9;&#x9;&#x9;&#x9;
+                      <option value="1471">Business/Residential Special Mon-Fri (UK ONLY) (&pound; 7.50)</option>&#x9;&#x9;&#x9;&#x9;
+                      <option value="1472">Business/Residential Special SATURDAY (UK ONLY) (&pound; 20.00)</option>&#x9;&#x9;&#x9;&#x9;
+                      <option value="1473">Hotel Delivery (Match-City) (&pound; 10.00)</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">Discount Code</label>
+                  <div class="col-sm-7">
+                    <div class="input-group">
+                      <input name="" type="text" maxlength="25" class="form-control" />
+                      <span class="input-group-btn">
+                        <a onclick="WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$cphBody$ucShippingMethod$lnkSubmitPromotionCode&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))" class="btn btn-md btn-success btn-buy">Apply</a>
+                      </span>
+                      <div class="help-block text-danger">
+                        <b></b>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">150% GUARANTEE</label>
+                  <div class="col-sm-7 breath">
+                    <span class="highlight">FREE</span> (
+                    <a href="javascript:void(0)" data-toggle="modal" data-target="#modal-why-book" class="text-muted">What is this?</a>)</div>
+                </div>
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">
+                    <span class="highlight highlight-md">TOTAL</span>
+                  </label>
+                  <div class="col-sm-7 breath total">-</div>
+                </div>
+              </div>
+              <div class="box breath-md-top">
+                <h3>Provide Billing Address (address where credit card is registered)</h3>
+                <div class="clearfix">
+                  <p class="text-danger pull-right">* required fields</p>
+                </div>
+                <div id="ctl00_cphBody_ucBillingAddress_pnlFirstName" class="form-group">
+                  <label for="inputFirstName" class="col-sm-2 required control-label">First Name</label>
+                  <div class="col-sm-7">
+                    <input id="inputFirstName" type="text" required="true" placeholder="First Name" maxlength="60" size="20" name="" class="form-control" /> </div>
+                </div>
+                <div id="ctl00_cphBody_ucBillingAddress_pnlLastName" class="form-group has-error">
+                  <label for="inputLastName" class="col-sm-2 required control-label">Last Name</label>
+                  <div class="col-sm-7">
+                    <input id="inputLastName" type="text" required="true" placeholder="Last Name" maxlength="60" size="20" name="" class="form-control" />
+                    <div class="help-block">This field can't be empty</div>
+                  </div>
+                </div>
+                <div id="ctl00_cphBody_ucBillingAddress_txtCompany" class="form-group">
+                  <label for="inputCompany" class="col-sm-2 control-label">Company</label>
+                  <div class="col-sm-7">
+                    <input id="inputCompany" type="text" placeholder="Company" maxlength="100" size="30" name="" class="form-control" /> </div>
+                  <div class="col-sm-3 help-block">Please enter company name only if this is a corporate credit card</div>
+                </div>
+                <div id="ctl00_cphBody_ucBillingAddress_pnlAdd1" class="form-group">
+                  <label for="inputAddress" class="col-sm-2 required control-label">Address</label>
+                  <div class="col-sm-7">
+                    <input id="inputAddress" type="text" required="true" placeholder="Address" maxlength="100" size="30" name="" class="form-control" /> </div>
+                </div>
+                <div id="ctl00_cphBody_ucBillingAddress_txtAddress2" class="form-group">
+                  <label for="inputAddress2" class="col-sm-2 required control-label">Address 2</label>
+                  <div class="col-sm-7">
+                    <input id="inputAddress2" type="text" required="true" placeholder="Address" maxlength="100" size="30" name="" class="form-control" /> </div>
+                </div>
+                <div id="ctl00_cphBody_ucBillingAddress_pnlTownCity" class="form-group">
+                  <label for="inputTowncity" class="col-sm-2 required control-label">Town / City</label>
+                  <div class="col-sm-7">
+                    <input id="inputTowncity" type="text" required="true" placeholder="Town / City" size="15" name="" class="form-control" /> </div>
+                </div>
+                <div id="ctl00_cphBody_ucBillingAddress_txtRegion" class="form-group">
+                  <label for="inputRegionstate" class="col-sm-2 control-label">Region / State</label>
+                  <div class="col-sm-7">
+                    <input id="inputRegionstate" type="text" placeholder="Region / State" size="20" name="" class="form-control" /> </div>
+                </div>
+                <div id="ctl00_cphBody_ucBillingAddress_pnlCountry" class="form-group">
+                  <label for="inputCountry" class="col-sm-2 required control-label">Country</label>
+                  <div class="col-sm-7">
+                    <select id="inputCountry" name="" required="true" class="form-control">
+                      <option value="2">Albania</option>
+                    </select>
+                  </div>
+                </div>
+                <div id="ctl00_cphBody_ucBillingAddress_pnlPostalCode" class="form-group">
+                  <label for="inputPostcode" class="col-sm-2 required control-label">Postcode</label>
+                  <div class="col-sm-7">
+                    <input id="inputPostcode" type="text" required="true" placeholder="Postcode" size="20" name="" onchange="javascript:setTimeout('__doPostBack('ctl00$cphBody$ucBillingAddress$txtPostCode','')', 0)" onkeypress="if (WebForm_TextBoxKeyHandler(event) == false) return false;"
+                      class="form-control" /> </div>
+                  <div id="ctl00_cphBody_ucBillingAddress_addressUpdProg" style="display:none;" class="col-sm-3">
+                    <img src="/images/ajax-loader.gif" alt="Progress..." />
+                  </div>
+                </div>
+                <div id="ctl00_cphBody_ucBillingAddress_pnlPhone" class="form-group">
+                  <label for="inputPhone" class="col-sm-2 required control-label">Phone</label>
+                  <div class="col-sm-7">
+                    <input id="inputPhone" type="tel" required="true" placeholder="Phone" size="20" name="" class="form-control" /> </div>
+                  <div id="ctl00_cphBody_ucBillingAddress_requirePhoneNumber" class="col-sm-3 help-block">It is important that you provide both Fixed and Mobile Phone Numbers</div>
+                </div>
+                <div id="ctl00_cphBody_ucBillingAddress_pnlMobile" class="form-group">
+                  <label for="inputMobile" class="col-sm-2 required control-label">Mobile</label>
+                  <div class="col-sm-7">
+                    <input id="inputMobile" type="tel" required="true" placeholder="Mobile" size="20" name="" class="form-control" /> </div>
+                </div>
+                <div id="ctl00_cphBody_ucBillingAddress_pnlEmail" class="form-group">
+                  <label for="inputEmail" class="col-sm-2 required control-label">Email address</label>
+                  <div class="col-sm-7">
+                    <input id="inputEmail" type="email" required="true" placeholder="Email Address" size="30" name="" class="form-control" /> </div>
+                  <div class="col-sm-3 help-block">Please be advised that email domains such as AOL &amp; GMX will block our email confirmation, please use an alternative or contact us if you do not receive an email confirmation.</div>
+                </div>
+                <div id="ctl00_cphBody_pnlShippingAddress" class="form-group">
+                  <label for="inputEmail" class="col-sm-2 required control-label">Delivery address is same as billing / provide later:</label>
+                  <div class="col-sm-7">
+                    <label class="radio-inline">
+                      <input id="ctl00_cphBody_rdbUseBilling" type="radio" required="true" name="ctl00$cphBody$Shipping" value="rdbUseBilling" checked="checked" />Yes </label>
+                    <label class="radio-inline">
+                      <input id="ctl00_cphBody_rdbUseShipping" type="radio" required="true" name="ctl00$cphBody$Shipping" value="rdbUseShipping" onclick="javascript:setTimeout('__doPostBack('ctl00$cphBody$rdbUseShipping','')', 0)" tabindex="15" />No </label>
+                  </div>
+                </div>
+              </div>
+              <div class="box breath-md-top">
+                <h3>Provide Credit Card Details</h3>
+                <div id="ctl00_cphBody_ucCardDetails_lblCardNumber" class="form-group">
+                  <label for="inputCardnumber" class="col-sm-2 required control-label">Card number</label>
+                  <div class="col-sm-7">
+                    <input id="inputCardnumber" type="text" placeholder="Card number" pattern="[0-9]{10,20}" maxlength="20" name="" class="form-control" /> </div>
+                  <div class="col-sm-3 help-block">
+                    <span id="ctl00_cphBody_ucCardDetails_lblCardTypeOK"></span>
+                  </div>
+                </div>
+                <div id="ctl00_cphBody_ucCardDetails_lblExpire" class="form-group">
+                  <label for="inputExpiration" class="col-sm-2 required control-label">Expiration</label>
+                  <div class="col-sm-7">
+                    <div class="row">
+                      <div class="col-xs-5">
+                        <select id="ctl00_cphBody_ucCardDetails_drpExpireMonth" name="" class="form-control">
+                          <option value="00"></option>
+                          <option value="01"></option>
+                        </select>
+                      </div>
+                      <div class="col-xs-7">
+                        <select id="ctl00_cphBody_ucCardDetails_drpExpireYear" name="" class="form-control">
+                          <option value="00"></option>
+                          <option value="2015">2015</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="ctl00_cphBody_ucCardDetails_lblSecurityCode" class="form-group">
+                  <label for="inputCVV2" class="col-sm-2 required control-label">CVV2</label>
+                  <div class="col-sm-7">
+                    <input id="inputCVV2" type="text" pattern="[0-9]{0,6}" placeholder="Card number" maxlength="6" size="5" name="" class="form-control" /> </div>
+                  <div class="col-sm-3">
+                    <a href="javascript:void(0)" data-toggle="modal" data-target="#modal-cvv2" class="help-block">What is CVV2?</a>
+                  </div>
+                </div>
+              </div>
+              <div class="box breath-md-top">
+                <h3>Anything else to tell us?</h3>
+                <p>**Due to Italian Football Regulations, we also require the following details for EACH person attending matches in Italy (Full Name + Dates of Birth + Passport Number) please provide in the space below if this information is available at
+                  purchase. Alternatively, you can provide by email at a later time.</p>
+                <div class="form-group">
+                  <div class="col-sm-9">
+                    <textarea id="ctl00_cphBody_ucNotesAndConfirm_txtNotes" name="" rows="3" cols="60" placeholder="Leave us a Note/Extra Info Needed ..." class="form-control"></textarea>
+                  </div>
+                  <div class="col-sm-3 help-block">Leave us a Note/Extra Info Needed</div>
+                </div>
+              </div>
+              <div id="accept-box" class="box breath-md-top">
+                <div class="form-group">
+                  <div class="col-sm-12">
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" checked="checked" /> I have read and agree to the
+                        <!-- @pargat-5 regarding the terms and conditions popup: add the data-modal attribute the modal-remote class and put the remote url in the href-->
+                        <a id="terms" rel="nofollow" href="/remote-terms.html" data-modal="#modal-terms" class="terms modal-remote"> Terms and Conditions</a>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-sm-12">
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" checked="checked" /> I would like to receive ticket alerts. </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="breath-lg">
+                  <a data-toggle="collapse" href="#cancel-order" aria-expanded="false" class="btn btn-lg btn-default">Cancel</a>&nbsp;&nbsp;
+                  <a id="ctl00_cphBody_ucNotesAndConfirm_cmdProcessBottom" onclick="progress(true, true);" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$cphBody$ucNotesAndConfirm$cmdProcessBottom&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"
+                    class="btn btn-lg btn-success btn-order">Make payment</a>
+                </div>
+                <div id="cancel-order" class="alert alert-danger text-center collapse">
+                  <p class="highlight">Are you sure you want to cancel your order for English Premiership: Chelsea v Stoke City tickets?</p>
+                  <div class="breath-md"></div>
+                  <a href="/" class="btn btn-lg btn-danger">YES, I would like to cancel my ticket order.</a>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="row breath-md-top"></div>
+        </div>
+        <div class="col-md-4 col-lg-3 hidden-xs">
+          <div class="row">
+            <div class="col-xs-12">
+              <!-- macro: box_whyBookWithUs -->
+              <div id="why-book-with-us" class="box">
+                <h3 class="text-center text-primary">Why book with us?</h3>
+                <ul class="box-list box-list--features">
+                  <li>
+                    <i class="icon icon-checkmark"></i>150% money-back guarantee</li>
+                  <li>
+                    <i class="icon icon-checkmark"></i>Real-time inventory</li>
+                  <li>
+                    <i class="icon icon-checkmark"></i>Friendly customer service</li>
+                  <li>
+                    <i class="icon icon-checkmark"></i>Secure payment</li>
+                  <li>
+                    <i class="icon icon-checkmark"></i>Last minute bookings</li>
+                  <li>
+                    <i class="icon icon-checkmark"></i>7 years online serving fans</li>
+                </ul>
+              </div>
+              <!-- endmacro -->
+            </div>
+            <div class="col-sm-6 col-md-12">
+              <!-- macro: box_ourDeliveryParteners -->
+              <div class="box only-images breath-md-top">
+                <h3 class="text-primary">Our delivery partners</h3>
+                <div class="box-content">
+                  <div class="row breath-md-top">
+                    <div class="col-xs-9 col-xs-offset-1">
+                      <img src="images/logo-fedex.png" class="img-responsive pull-left">
+                      <div class="clearfix breath-md-top"></div>
+                      <img src="images/logo-royalmail.png" class="img-responsive pull-right"> </div>
+                  </div>
+                </div>
+              </div>
+              <!-- endmacro -->
+            </div>
+            <div class="col-sm-6 col-md-12">
+              <!-- macro: box_callUs -->
+              <div class="box breath-md-top">
+                <h3>Having troubles? Call us</h3>
+                <div class="highlight highlight-lg">
+                  <i class="icon icon-phone"></i>&nbsp; 0-871-284-5277</div>
+                <div class="breath-md-top">
+                  <p class="highlight">Tel. hours:</p>
+                  <div>Mon - Fri (Some Saturdays)</div>
+                  <div>9am - 5pm GMT</div>
+                </div>
+                <div class="breath-md-top">
+                  <a href="@todo" class="highlight highlight-md">sales@livefootballtickets.com</a>
+                </div>
+              </div>
+              <!-- endmacro -->
+            </div>
+            <div class="col-xs-12">
+              <!-- macro: box_secureOnlineProcessing -->
+              <div class="box breath-md-top">
+                <h3 class="text-center text-primary">Secure online processing</h3>
+                <div class="box-content">
+                  <div class="row breath-md">
+                    <div class="col-xs-4">
+                      <a href="https://www.mcafeesecure.com/RatingVerify?ref=www.livefootballtickets.com" target="_blank">
+                        <img src="images/logo-mcafee.gif" alt="McAfee Secure sites help keep you safe from identity theft, credit card fraud, spyware, spam, viruses and online scams" oncontextmenu="alert(&quot;Copying Prohibited by Law - McAfee Secure is a Trademark of McAfee, Inc.&quot;&quot;); return false;"
+                          class="img-responsive" />
+                      </a>
+                    </div>
+                    <div class="col-xs-8">HackerSafe Website Tested Daily (McAfee Secure)</div>
+                  </div>
+                  <div class="row breath-sm">
+                    <div class="col-xs-4">
+                      <a href="https://www.mcafeesecure.com/RatingVerify?ref=www.livefootballtickets.com" target="_blank">
+                        <img src="images/logo-geotrust.gif" class="img-responsive" />
+                      </a>
+                    </div>
+                    <div class="col-xs-8">Secure Sockets Layer (SSL) 256-Bit Encryption Protocol (GEO Trust)</div>
+                  </div>
+                </div>
+              </div>
+              <!-- endmacro -->
+            </div>
+          </div>
+          <div class="breath-md-top"></div>
+        </div>
+      </div>
+    </div>
+    <!-- partial: footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6 col-sm-4 col-md-3">
+            <ul>
+              <li>
+                <a href="#">About Us</a>
+              </li>
+              <li>
+                <a href="#">Contact Us</a>
+              </li>
+              <li>
+                <a href="#">Privacy</a>
+              </li>
+              <li>
+                <a href="#">Testimonials</a>
+              </li>
+              <li>
+                <a href="#">FAQ</a>
+              </li>
+              <li>
+                <a href="#">Disclaimer</a>
+              </li>
+              <li>
+                <a href="#">Terms</a>
+              </li>
+              <li>
+                <a href="#">News</a>
+              </li>
+              <li>
+                <a href="#">LiveFootballTickets Blog</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-6 col-sm-4 col-md-3">
+            <ul>
+              <li>
+                <a href="/league.html">Premiership Tickets</a>
+              </li>
+              <li>
+                <a href="/league.html">FA Cup Tickets</a>
+              </li>
+              <li>
+                <a href="/league.html">Carling Cup Tickets</a>
+              </li>
+              <li>
+                <a href="/league.html">Champions League Tickets</a>
+              </li>
+              <li>
+                <a href="/league.html">Euro 2016 Tickets</a>
+              </li>
+              <li>
+                <a href="/league.html">Europa League Tickets</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-6 col-sm-4 col-md-3">
+            <ul>
+              <li>
+                <a href="/club.html">Arsenal Tickets</a>
+              </li>
+              <li>
+                <a href="/club.html">Manchester United Tickets</a>
+              </li>
+              <li>
+                <a href="/club.html">Liverpool Tickets</a>
+              </li>
+              <li>
+                <a href="/club.html">Chelsea Tickets</a>
+              </li>
+              <li>
+                <a href="/club.html">FA Cup Final Tickets</a>
+              </li>
+              <li>
+                <a href="/club.html">Community Shield Tickets</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-6 col-sm-4 col-md-3">
+            <ul>
+              <li>
+                <a href="#">Real Madrid Tickets</a>
+              </li>
+              <li>
+                <a href="#">Barcelona Tickets</a>
+              </li>
+              <li>
+                <a href="#">AC Milan Tickets</a>
+              </li>
+              <li>
+                <a href="#">Champions League Final Tickets</a>
+              </li>
+              <li>
+                <a href="#">England Football Tickets</a>
+              </li>
+              <li>
+                <a href="#">Europa League Final Tickets</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-lower">
+      <p class="text-center">Use of this site is subject to express&nbsp;
+        <a href="">terms of use</a>, which prohibit commercial use of this site.
+        <br/>By continuing past this page, you agree to abide by these terms.
+        <br/>&copy; 2004 - 2014 Live Football Tickets. All rights reserved.</p>
+    </div>
+    <!-- endpartial: footer -->
+    <!-- macro: modal_mobileWelcome -->
+    <div id="modal-welcome" tabindex="-1" role="dialog" aria-labelledby="welcomeModal" aria-hidden="true" class="modal fade">
+      <div class="modal-dialog modal-no-title">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" data-dismiss="modal" aria-label="Close" class="close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <header class="text-center">
+              <div class="text-uppercase">Welcome to</div>
+              <img src="images/logo.png" alt="" class="img-responsive center-block" />
+              <div class="modal-banner breath-md-top">
+                <img src="images/hp-banner.jpg" alt="" class="img-responsive center-block" />
+              </div>
+            </header>
+            <!-- macro: box_whyBookWithUs -->
+            <div id="why-book-with-us" class="box">
+              <h3 class="text-center">Why book with us?</h3>
+              <ul class="box-list box-list--features">
+                <li>
+                  <i class="icon icon-checkmark"></i>150% money-back guarantee</li>
+                <li>
+                  <i class="icon icon-checkmark"></i>Real-time inventory</li>
+                <li>
+                  <i class="icon icon-checkmark"></i>Friendly customer service</li>
+                <li>
+                  <i class="icon icon-checkmark"></i>Secure payment</li>
+                <li>
+                  <i class="icon icon-checkmark"></i>Last minute bookings</li>
+                <li>
+                  <i class="icon icon-checkmark"></i>7 years online serving fans</li>
+              </ul>
+            </div>
+            <!-- endmacro -->
+            <div class="row text-center">
+              <div class="col-xs-8 col-xs-offset-2">
+                <button id="modal-welcome-btn-continue" type="button" data-dismiss="modal" aria-label="Continue" class="btn btn-lg btn-block btn-success">Continue</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- endmacro -->
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.-->
+    <script>
+      (function(b, o, i, l, e, r)
+      {
+        b.GoogleAnalyticsObject = l;
+        b[l] || (b[l] = function()
+        {
+          (b[l].q = b[l].q || []).push(arguments)
+        });
+        b[l].l = +new Date;
+        e = o.createElement(i);
+        r = o.getElementsByTagName(i)[0];
+        e.src = '//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e, r)
+      }(window, document, 'script', 'ga'));
+      ga('create', 'UA-XXXXX-X');
+      ga('send', 'pageview');
+    </script>
+    <!-- Facebook js sdk-->
+    <script>
+      (function(d, s, id)
+      {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.6&appId=1394403754167366";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!-- Twitter js-->
+    <script>
+      ! function(d, s, id)
+      {
+        var js, fjs = d.getElementsByTagName(s)[0],
+          p = /^http:/.test(d.location) ? 'http' : 'https';
+        if (!d.getElementById(id))
+        {
+          js = d.createElement(s);
+          js.id = id;
+          js.src = p + "://platform.twitter.com/widgets.js";
+          fjs.parentNode.insertBefore(js, fjs);
+        }
+      }(document, "script", "twitter-wjs");
+    </script>
+    <script src="scripts/vendor.js?v=59979afcfa9df4cbb372c8983f5f4a02" inline></script>
+    <script src="scripts/app.js?v=f315a799c4da58c7777c9d854f5e3861" inline></script>
+    <!-- partial: notifications -->
+    <script>
+      setTimeout(function()
+      {
+        $(document).ready(function()
+        {
+          $.notify('18 more people are currently looking at tickets for this match');
+        });
+      }, 2000);
+    </script>
+    <!-- endpartial: notifications -->
+    <script>
+      window.LTF_MOCKED_API = true
+    </script>
+  </body>
+</html>

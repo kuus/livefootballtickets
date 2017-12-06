@@ -1,0 +1,90 @@
+{
+  "more": true,
+  "results": [{
+    "entity": 0,
+    "desc": "Top Result",
+    "results": [{
+      "id": 20876,
+      "title": "Manchester City",
+      "url": "/Sports-Tickets/International-Soccer/European-Premier-Leagues/Barclays-Premier-League/Manchester-City-Tickets",
+      "highlight": false,
+      "subdata": null
+    }]
+  }, {
+    "entity": 1,
+    "desc": "Performers",
+    "results": [{
+      "id": 20876,
+      "title": "Manchester City",
+      "url": "/Sports-Tickets/International-Soccer/European-Premier-Leagues/Barclays-Premier-League/Manchester-City-Tickets",
+      "highlight": false,
+      "subdata": null
+    }, {
+      "id": 4055,
+      "title": "Manchester United",
+      "url": "/Sports-Tickets/International-Soccer/European-Premier-Leagues/Barclays-Premier-League/Manchester-United-Tickets",
+      "highlight": false,
+      "subdata": null
+    }, {
+      "id": 29027,
+      "title": "Manchester International Festival",
+      "url": "/Festival-Tickets/UK-Festivals/Manchester-International-Festival-Tickets",
+      "highlight": false,
+      "subdata": null
+    }]
+  }, {
+    "entity": 2,
+    "desc": "Events",
+    "results": [{
+      "id": 1961939,
+      "title": "Manchester City vs FC Barcelona - Champions League 2016-17 - Premium Seats - Etihad Stadium, Manchester",
+      "url": "/E-1961939",
+      "highlight": false,
+      "subdata": "Tue 01 Nov 2016 19:45"
+    }, {
+      "id": 1859396,
+      "title": "Manchester City vs Middlesbrough - Premium Seats - Etihad Stadium, Manchester",
+      "url": "/E-1859396",
+      "highlight": false,
+      "subdata": "Sat 05 Nov 2016 15:00"
+    }, {
+      "id": 1859424,
+      "title": "Manchester United vs Arsenal - Hospitality - Old Trafford, Manchester",
+      "url": "/E-1859424",
+      "highlight": false,
+      "subdata": "Sat 19 Nov 2016 15:00"
+    }]
+  }, {
+    "entity": 3,
+    "desc": "Venues",
+    "results": [{
+      "id": 843,
+      "title": "Manchester Academy 1, Manchester",
+      "url": "/_V-843",
+      "highlight": false,
+      "subdata": null
+    }, {
+      "id": 7261,
+      "title": "Manchester Academy 2, Manchester",
+      "url": "/_V-7261",
+      "highlight": false,
+      "subdata": null
+    }, {
+      "id": 7260,
+      "title": "Manchester Academy 3, Manchester",
+      "url": "/_V-7260",
+      "highlight": false,
+      "subdata": null
+    }]
+  }, {
+    "entity": 4,
+    "desc": "Cities",
+    "results": [{
+      "id": 227,
+      "title": "Manchester",
+      "url": "/_M-227",
+      "highlight": false,
+      "subdata": null
+    }]
+  }]
+}

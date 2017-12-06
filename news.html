@@ -1,0 +1,785 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>LiveFootballTickets</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory-->
+    <link href="http://fonts.googleapis.com/css?family=Dosis:300,400,600,700,800|Open+Sans:300italic,400italic,400,300,700" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="styles/vendor.css?v=9d1e64ce2d7a7073a38c09da7043b0cc" inline>
+    <link rel="stylesheet" href="styles/app.css?v=b5ea2749ef537dedc739ba8aeee1f926" inline>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--[if lt IE 9]>
+<link href="/respond.proxy.gif" id="respond-redirect" rel="respond-redirect"/>
+<script src="/respond.min.js"></script>
+<![endif]-->
+    <style>
+      @-webkit-viewport {
+        width: device-width;
+      }
+      
+      @-moz-viewport {
+        width: device-width;
+      }
+      
+      @-ms-viewport {
+        width: device-width;
+      }
+      
+      @-o-viewport {
+        width: device-width;
+      }
+      
+      @viewport {
+        width: device-width;
+      }
+    </style>
+    <script>
+      if (navigator.userAgent.match(/IEMobile\/10\.0/))
+      {
+        var msViewportStyle = document.createElement('style');
+        msViewportStyle.appendChild(document.createTextNode('@-ms-viewport{width:auto!important}'));
+        document.querySelector('head').appendChild(msViewportStyle);
+      }
+    </script>
+  </head>
+  <body class="page--news">
+    <div id="fb-root"></div>
+    <!-- section: header -->
+    <div class="header">
+      <!-- partial: header_top -->
+      <div class="header-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-7 col-sm-5">
+              <div class="wrap wrap-verified">
+                <img src="images/verified.png" alt="Verified by VISA, MasterCard SecureCode, McAfee Secure" width="135" class="img-responsive" />
+              </div>
+              <div class="wrap wrap-mcafee">
+                <a href="#">
+                  <img src="images/mcafee-secure.png" alt="McAfee Secure" class="img-responsive" />
+                </a>
+              </div>
+              <div class="wrap wrap-fb">
+                <div data-href="https://www.facebook.com/LiveFootballTickets" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false" class="hidden-xs fb-like"></div>
+              </div>
+            </div>
+            <div class="col-sm-7 hidden-xs contact-info">
+              <span class="text-uppercase">
+                <span class="text-primary">UK tel:</span> 0-871-284-5277 (outside UK?)</span>
+              <a href="/content.html" class="faq-link">Customer Service & FAQs</a>
+            </div>
+            <div class="col-xs-5 visible-xs-block text-uppercase contact-info">
+              <div class="text-muted">
+                <i class="icon icon-phone"></i> UK tel</div>
+              <div class="telephone">0-871-284-5277</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- endpartial: header_top -->
+      <div class="header-middle">
+        <!-- partial: header_main -->
+        <header class="header-main">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-3">
+                <a href="/" class="logo">
+                  <div class="logo-title text-hide">
+                    <img src="images/logo.png" alt="LiveFootballTickets: Reliable, secure, enjoy the match." class="logo-img img-responsive" />LiveFootballTickets</div>
+                  <div class="logo-subtitle text-hide">Reliable, secure, enjoy the match.</div>
+                </a>
+              </div>
+              <div class="col-sm-6 col-sm-offset-3">
+                <div class="search">
+                  <h5 class="search-label hidden-xs">Find your football tickets here:</h5>
+                  <form action="/" type="POST"></form>
+                  <div class="input-group">
+                    <input id="search-main" name="" placeholder="Enter team, venue or city" class="form-control input-lg" />
+                    <span class="input-group-btn">
+                      <button type="submit" class="btn btn-lg btn-primary">
+                        <i class="icon icon-search"></i>
+                        <span class="hidden-xs">Search</span>
+                      </button>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <!-- endpartial: header_main -->
+        <!-- partial: header_navbar -->
+        <nav id="navbar" class="header-navbar navbar navbar-default navbar-expander">
+          <div class="container">
+            <button type="button" data-toggle="collapse" data-target="#main-menu" class="navbar-toggle collapsed">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div id="main-menu" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active">
+                  <a href="/">Home</a>
+                </li>
+                <li class="dropdown">
+                  <a href="/league.html">Football Leagues</a>
+                  <button data-toggle="dropdown" aria-expanded="false" class="dropdown-toggle">
+                    <span class="caret"></span>
+                  </button>
+                  <ul role="menu" class="dropdown-menu">
+                    <li>
+                      <a href="/league.html">About</a>
+                    </li>
+                    <li>
+                      <a href="/league.html">Contact</a>
+                    </li>
+                    <li>
+                      <a href="/league.html">Contact</a>
+                    </li>
+                    <li>
+                      <a href="/league.html">About</a>
+                    </li>
+                    <li>
+                      <a href="/league.html">Contact</a>
+                    </li>
+                    <li>
+                      <a href="/league.html">Contact</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="/league.html">Football Cups</a>
+                  <button data-toggle="dropdown" aria-expanded="false" class="dropdown-toggle">
+                    <span class="caret"></span>
+                  </button>
+                  <ul role="menu" class="dropdown-menu">
+                    <li>
+                      <a href="/content.html">About</a>
+                    </li>
+                    <li>
+                      <a href="/content.html">Contact</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="/match.html">Other matches</a>
+                  <button data-toggle="dropdown" aria-expanded="false" class="dropdown-toggle">
+                    <span class="caret"></span>
+                  </button>
+                  <ul role="menu" class="dropdown-menu">
+                    <li>
+                      <a href="/match.html">About</a>
+                    </li>
+                    <li>
+                      <a href="/match.html">Contact</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="/match.html">Stadium tickets</a>
+                  <button data-toggle="dropdown" aria-expanded="false" class="dropdown-toggle">
+                    <span class="caret"></span>
+                  </button>
+                  <ul role="menu" class="dropdown-menu">
+                    <li>
+                      <a href="/content.html">About</a>
+                    </li>
+                    <li>
+                      <a href="/content.html">Contact</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- endpartial: header_navbar -->
+      </div>
+      <!-- partial: header_info -->
+      <div class="header-info">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4 col-md-3">
+              <h4>
+                <i class="icon icon-checkmark"></i>In business
+                <strong class="text-primary"> since 2004</strong>
+              </h4>
+            </div>
+            <div class="col-sm-4 col-md-3 hidden-xs hidden-sm">
+              <h4>
+                <i class="icon icon-checkmark"></i>
+                <strong class="text-primary">150%</strong> money-back guarantee</h4>
+            </div>
+            <div class="col-sm-4 col-md-3 hidden-xs">
+              <h4>
+                <i class="icon icon-checkmark"></i>
+                <strong class="text-primary">Secure</strong> payment</h4>
+            </div>
+            <div class="col-sm-4 col-md-3 hidden-xs">
+              <h4>
+                <i class="icon icon-checkmark"></i>
+                <strong class="text-primary">Real-time</strong> inventory</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- endpartial: header_info -->
+    </div>
+    <!-- endsection: header -->
+    <!--[if lt IE 8]>
+    <div class="alert alert-warning browserupgrade text-center"><p><small>You are using an <strong>outdated</strong> browser. Please <a class="text-danger" href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</small></p></div>
+  <![endif]-->
+    <div class="container">
+      <div class="row page-news">
+        <div class="col-md-9 col-md-push-3">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="box box-content">
+                <h3 class="text-primary">Football news</h3>
+                <!-- macro: pagination -->
+                <nav class="box-pagination">
+                  <ul class="pagination">
+                    <li class="active">
+                      <a href="#">1</a>
+                    </li>
+                    <li>
+                      <a href="#">2</a>
+                    </li>
+                    <li>
+                      <a href="#">3</a>
+                    </li>
+                    <li>
+                      <a href="#">4</a>
+                    </li>
+                    <li>
+                      <a href="#">5</a>
+                    </li>
+                    <li>
+                      <a href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+                <!-- endmacro -->
+              </div>
+              <ul class="news-overview">
+                <!-- macro: newsOverviewItem -->
+                <li class="box box-content breath-md-top">
+                  <time class="news-date">Mon, 30 Mar 2015</time>
+                  <h3 class="news-title">Champions league tickets &amp; results</h3>
+                  <p>
+                    <strong>CHAMPIONS LEAGUE 2015 ROUND OF 16 TICKETS, SCORES AND FIXTURES</strong> With a 1-1 draw between titan clubs Paris Saint Germain and FC Chelsea in Paris, the UEFA Champions League has returned with four matches played to date in the
+                    eight two-leg Last 16 ties. Carlo Ancelotti’s Real Madrid got off to a winning start in the Europea...
+                    <a href="/content.html" class="link-readmore">Read more</a>
+                  </p>
+                </li>
+                <!-- endmacro -->
+                <!-- macro: newsOverviewItem -->
+                <li class="box box-content breath-md-top">
+                  <time class="news-date">Tue, 12 Apr 2015</time>
+                  <h3 class="news-title">LIVERPOOL FC UPDATE: LIVERPOOL ALL STARS, FA CUP, PREMIERSHIP</h3>
+                  <p>
+                    <strong>Liverpool FC Update: Liverpool All Stars tickets, FA Cup tickets, Premiership tickets</strong> An amazing group of superstar football players including former Liverpool footballers is in the line-up for Liverpool’s Sunday&#39;s All
+                    Stars Charity Match at Anfield Road on March 19. The sides are captained by Liverpool’s Steven Gerrard and Jamie...
+                    <a href="/content.html" class="link-readmore">Read more</a>
+                  </p>
+                </li>
+                <!-- endmacro -->
+                <!-- macro: newsOverviewItem -->
+                <li class="box box-content breath-md-top">
+                  <time class="news-date">Mon, 30 Mar 2015</time>
+                  <h3 class="news-title">Champions league tickets &amp; results</h3>
+                  <p>
+                    <strong>CHAMPIONS LEAGUE 2015 ROUND OF 16 TICKETS, SCORES AND FIXTURES</strong> With a 1-1 draw between titan clubs Paris Saint Germain and FC Chelsea in Paris, the UEFA Champions League has returned with four matches played to date in the
+                    eight two-leg Last 16 ties. Carlo Ancelotti’s Real Madrid got off to a winning start in the Europea...
+                    <a href="/content.html" class="link-readmore">Read more</a>
+                  </p>
+                </li>
+                <!-- endmacro -->
+                <!-- macro: newsOverviewItem -->
+                <li class="box box-content breath-md-top">
+                  <time class="news-date">Tue, 12 Apr 2015</time>
+                  <h3 class="news-title">LIVERPOOL FC UPDATE: LIVERPOOL ALL STARS, FA CUP, PREMIERSHIP</h3>
+                  <p>
+                    <strong>Liverpool FC Update: Liverpool All Stars tickets, FA Cup tickets, Premiership tickets</strong> An amazing group of superstar football players including former Liverpool footballers is in the line-up for Liverpool’s Sunday&#39;s All
+                    Stars Charity Match at Anfield Road on March 19. The sides are captained by Liverpool’s Steven Gerrard and Jamie...
+                    <a href="/content.html" class="link-readmore">Read more</a>
+                  </p>
+                </li>
+                <!-- endmacro -->
+                <!-- macro: newsOverviewItem -->
+                <li class="box box-content breath-md-top">
+                  <time class="news-date">Mon, 30 Mar 2015</time>
+                  <h3 class="news-title">Champions league tickets &amp; results</h3>
+                  <p>
+                    <strong>CHAMPIONS LEAGUE 2015 ROUND OF 16 TICKETS, SCORES AND FIXTURES</strong> With a 1-1 draw between titan clubs Paris Saint Germain and FC Chelsea in Paris, the UEFA Champions League has returned with four matches played to date in the
+                    eight two-leg Last 16 ties. Carlo Ancelotti’s Real Madrid got off to a winning start in the Europea...
+                    <a href="/content.html" class="link-readmore">Read more</a>
+                  </p>
+                </li>
+                <!-- endmacro -->
+                <!-- macro: newsOverviewItem -->
+                <li class="box box-content breath-md-top">
+                  <time class="news-date">Tue, 12 Apr 2015</time>
+                  <h3 class="news-title">LIVERPOOL FC UPDATE: LIVERPOOL ALL STARS, FA CUP, PREMIERSHIP</h3>
+                  <p>
+                    <strong>Liverpool FC Update: Liverpool All Stars tickets, FA Cup tickets, Premiership tickets</strong> An amazing group of superstar football players including former Liverpool footballers is in the line-up for Liverpool’s Sunday&#39;s All
+                    Stars Charity Match at Anfield Road on March 19. The sides are captained by Liverpool’s Steven Gerrard and Jamie...
+                    <a href="/content.html" class="link-readmore">Read more</a>
+                  </p>
+                </li>
+                <!-- endmacro -->
+              </ul>
+              <div class="box box-content breath-md-top">
+                <!-- macro: pagination -->
+                <nav class="box-pagination">
+                  <ul class="pagination">
+                    <li class="active">
+                      <a href="#">1</a>
+                    </li>
+                    <li>
+                      <a href="#">2</a>
+                    </li>
+                    <li>
+                      <a href="#">3</a>
+                    </li>
+                    <li>
+                      <a href="#">4</a>
+                    </li>
+                    <li>
+                      <a href="#">5</a>
+                    </li>
+                    <li>
+                      <a href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+                <!-- endmacro -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-md-pull-9 sidebar">
+          <div class="row">
+            <div class="breath-md-top hidden-md hidden-lg"></div>
+            <div class="col-xs-12 col-sm-6 col-md-12 hidden-xs">
+              <!-- macro: box_whyBookWithUs -->
+              <div id="why-book-with-us" class="box">
+                <h3 class="text-center text-primary">Why book with us?</h3>
+                <ul class="box-list box-list--features">
+                  <li>
+                    <i class="icon icon-checkmark"></i>150% money-back guarantee</li>
+                  <li>
+                    <i class="icon icon-checkmark"></i>Real-time inventory</li>
+                  <li>
+                    <i class="icon icon-checkmark"></i>Friendly customer service</li>
+                  <li>
+                    <i class="icon icon-checkmark"></i>Secure payment</li>
+                  <li>
+                    <i class="icon icon-checkmark"></i>Last minute bookings</li>
+                  <li>
+                    <i class="icon icon-checkmark"></i>7 years online serving fans</li>
+                </ul>
+                <div class="text-center breath-md-top hidden-sm">
+                  <a href="#" class="btn btn-lg btn-success">Learn more</a>
+                </div>
+              </div>
+              <!-- endmacro -->
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-12">
+              <!-- macro: box_sidebarListLinks -->
+              <div class="box ">
+                <h3 class="text-primary">English Premiership</h3>
+                <ul class="box-list box-list--links">
+                  <li>
+                    <a href="/club.html">
+                      <img src="images/shirt-generic.png" height="45">
+                      <span>Manchester City tickets</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/club.html">
+                      <img src="images/shirt-temp.png" height="45">
+                      <span>Chelsea tickets</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/club.html">
+                      <img src="images/shirt-temp.png" height="45">
+                      <span>Liverpool tickets</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/club.html">
+                      <img src="images/shirt-temp.png" height="45">
+                      <span>Manchester United tickets</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/club.html" class="more">More...</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- endmacro -->
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-12">
+              <!-- macro: box_sidebarListLinks -->
+              <div class="box ">
+                <h3 class="text-primary">Italian Seria A</h3>
+                <ul class="box-list box-list--links">
+                  <li>
+                    <a href="/club.html">
+                      <img src="images/shirt-temp.png" height="45">
+                      <span>Juventus tickets</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/club.html">
+                      <img src="images/shirt-generic.png" height="45">
+                      <span>Inter Milan tickets</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/club.html">
+                      <img src="images/shirt-temp.png" height="45">
+                      <span>AC Milan tickets</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/club.html">
+                      <img src="images/shirt-generic.png" height="45">
+                      <span>AS Roma tickets</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/club.html" class="more">More...</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- endmacro -->
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-12">
+              <!-- macro: box_sidebarListLinks -->
+              <div class="box ">
+                <h3 class="text-primary">Other leagues</h3>
+                <ul class="box-list box-list--links">
+                  <li>
+                    <a href="/league.html">
+                      <img src="images/shirt-temp.png" height="45">
+                      <span>Spanish primera division tickets</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/league.html">
+                      <img src="images/shirt-temp.png" height="45">
+                      <span>Italian Serie A tickets</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/league.html">
+                      <img src="images/shirt-generic.png" height="45">
+                      <span>German Bundesliga tickets</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/league.html">
+                      <img src="images/shirt-generic.png" height="45">
+                      <span>French Ligue 1 tickets</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/league.html" class="more">More...</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- endmacro -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row hidden-xs hidden-sm breath-md-top">
+        <div class="col-sm-6">
+          <!-- macro: box_socialFacebook -->
+          <div class="box">
+            <h3 class="text-primary">Facebook</h3>
+            <div class="fb-page" data-href="http://www.facebook.com/LiveFootballTickets" data-width="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+              <blockquote cite="http://www.facebook.com/LiveFootballTickets" class="fb-xfbml-parse-ignore">
+                <a href="http://www.facebook.com/LiveFootballTickets">LiveFootballTickets</a>
+              </blockquote>
+            </div>
+          </div>
+          <!-- endmacro -->
+        </div>
+        <div class="col-sm-6">
+          <!-- macro: box_socialTwitter -->
+          <div class="box">
+            <h3 class="text-primary">Twitter</h3>
+            <a data-dnt="true" height="210" data-chrome="nofooter" href="https://twitter.com/LiveFootballTix" data-widget-id="583250938510573568" class="twitter-timeline"></a>
+          </div>
+          <!-- endmacro -->
+        </div>
+      </div>
+      <!-- macro: block_introduction -->
+      <div class="breath-md">
+        <div class="readmore">
+          <p>Welcome to Live Football Tickets.com, world's premier website for football tickets. Browse our real time live football ticket inventory and buy football tickets for your favorite team or league including the English Premiership, Serie A, La
+            Liga, FA Cup, Champions League Final tickets and more football tickets.</p>
+          <p>Buy football tickets for any fixture for the lowest available price. We have literally thousands of football tickets available here. Football is the biggest sport in the UK and throughout the world and it’s an absolute must for every football
+            fan to see a live game with world’s biggest football stars.</p>
+          <p>Never miss out on the football match of your favourite team ever again. Whether you are searching for England football tickets, English Premier League tickets, Scottisch PL tickets, Spanish La Liga tickets, Italian Serie A tickets, UEFA Champions
+            League tickets, Europa League Final tickets or</p>
+          <p>Welcome to Live Football Tickets.com, world's premier website for football tickets. Browse our real time live football ticket inventory and buy football tickets for your favorite team or league including the English Premiership, Serie A, La
+            Liga, FA Cup, Champions League Final tickets and more football tickets.</p>
+          <p>Buy football tickets for any fixture for the lowest available price. We have literally thousands of football tickets available here. Football is the biggest sport in the UK and throughout the world and it’s an absolute must for every football
+            fan to see a live game with world’s biggest football stars.</p>
+          <p>Never miss out on the football match of your favourite team ever again. Whether you are searching for England football tickets, English Premier League tickets, Scottisch PL tickets, Spanish La Liga tickets, Italian Serie A tickets, UEFA Champions
+            League tickets, Europa League Final tickets or</p>
+        </div>
+      </div>
+      <!-- endmacro -->
+    </div>
+    <!-- macro: newsletter -->
+    <div class="newsletter breath-md-top hidden-xs hidden-sm">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3">
+            <h3 class="text-center text-primary">Get our ticket alert and be the first to know what's happening and when.</h3>
+            <form action="" type="POST">
+              <div class="input-group">
+                <input placeholder="Enter your email" class="form-control input-lg" />
+                <span class="input-group-btn">
+                  <button class="btn btn-lg btn-success">Subscribe</button>
+                </span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- endmacro -->
+    <!-- partial: footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6 col-sm-4 col-md-3">
+            <ul>
+              <li>
+                <a href="#">About Us</a>
+              </li>
+              <li>
+                <a href="#">Contact Us</a>
+              </li>
+              <li>
+                <a href="#">Privacy</a>
+              </li>
+              <li>
+                <a href="#">Testimonials</a>
+              </li>
+              <li>
+                <a href="#">FAQ</a>
+              </li>
+              <li>
+                <a href="#">Disclaimer</a>
+              </li>
+              <li>
+                <a href="#">Terms</a>
+              </li>
+              <li>
+                <a href="#">News</a>
+              </li>
+              <li>
+                <a href="#">LiveFootballTickets Blog</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-6 col-sm-4 col-md-3">
+            <ul>
+              <li>
+                <a href="/league.html">Premiership Tickets</a>
+              </li>
+              <li>
+                <a href="/league.html">FA Cup Tickets</a>
+              </li>
+              <li>
+                <a href="/league.html">Carling Cup Tickets</a>
+              </li>
+              <li>
+                <a href="/league.html">Champions League Tickets</a>
+              </li>
+              <li>
+                <a href="/league.html">Euro 2016 Tickets</a>
+              </li>
+              <li>
+                <a href="/league.html">Europa League Tickets</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-6 col-sm-4 col-md-3">
+            <ul>
+              <li>
+                <a href="/club.html">Arsenal Tickets</a>
+              </li>
+              <li>
+                <a href="/club.html">Manchester United Tickets</a>
+              </li>
+              <li>
+                <a href="/club.html">Liverpool Tickets</a>
+              </li>
+              <li>
+                <a href="/club.html">Chelsea Tickets</a>
+              </li>
+              <li>
+                <a href="/club.html">FA Cup Final Tickets</a>
+              </li>
+              <li>
+                <a href="/club.html">Community Shield Tickets</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-6 col-sm-4 col-md-3">
+            <ul>
+              <li>
+                <a href="#">Real Madrid Tickets</a>
+              </li>
+              <li>
+                <a href="#">Barcelona Tickets</a>
+              </li>
+              <li>
+                <a href="#">AC Milan Tickets</a>
+              </li>
+              <li>
+                <a href="#">Champions League Final Tickets</a>
+              </li>
+              <li>
+                <a href="#">England Football Tickets</a>
+              </li>
+              <li>
+                <a href="#">Europa League Final Tickets</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-lower">
+      <p class="text-center">Use of this site is subject to express&nbsp;
+        <a href="">terms of use</a>, which prohibit commercial use of this site.
+        <br/>By continuing past this page, you agree to abide by these terms.
+        <br/>&copy; 2004 - 2014 Live Football Tickets. All rights reserved.</p>
+    </div>
+    <!-- endpartial: footer -->
+    <!-- macro: modal_mobileWelcome -->
+    <div id="modal-welcome" tabindex="-1" role="dialog" aria-labelledby="welcomeModal" aria-hidden="true" class="modal fade">
+      <div class="modal-dialog modal-no-title">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" data-dismiss="modal" aria-label="Close" class="close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <header class="text-center">
+              <div class="text-uppercase">Welcome to</div>
+              <img src="images/logo.png" alt="" class="img-responsive center-block" />
+              <div class="modal-banner breath-md-top">
+                <img src="images/hp-banner.jpg" alt="" class="img-responsive center-block" />
+              </div>
+            </header>
+            <!-- macro: box_whyBookWithUs -->
+            <div id="why-book-with-us" class="box">
+              <h3 class="text-center">Why book with us?</h3>
+              <ul class="box-list box-list--features">
+                <li>
+                  <i class="icon icon-checkmark"></i>150% money-back guarantee</li>
+                <li>
+                  <i class="icon icon-checkmark"></i>Real-time inventory</li>
+                <li>
+                  <i class="icon icon-checkmark"></i>Friendly customer service</li>
+                <li>
+                  <i class="icon icon-checkmark"></i>Secure payment</li>
+                <li>
+                  <i class="icon icon-checkmark"></i>Last minute bookings</li>
+                <li>
+                  <i class="icon icon-checkmark"></i>7 years online serving fans</li>
+              </ul>
+            </div>
+            <!-- endmacro -->
+            <div class="row text-center">
+              <div class="col-xs-8 col-xs-offset-2">
+                <button id="modal-welcome-btn-continue" type="button" data-dismiss="modal" aria-label="Continue" class="btn btn-lg btn-block btn-success">Continue</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- endmacro -->
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.-->
+    <script>
+      (function(b, o, i, l, e, r)
+      {
+        b.GoogleAnalyticsObject = l;
+        b[l] || (b[l] = function()
+        {
+          (b[l].q = b[l].q || []).push(arguments)
+        });
+        b[l].l = +new Date;
+        e = o.createElement(i);
+        r = o.getElementsByTagName(i)[0];
+        e.src = '//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e, r)
+      }(window, document, 'script', 'ga'));
+      ga('create', 'UA-XXXXX-X');
+      ga('send', 'pageview');
+    </script>
+    <!-- Facebook js sdk-->
+    <script>
+      (function(d, s, id)
+      {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.6&appId=1394403754167366";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!-- Twitter js-->
+    <script>
+      ! function(d, s, id)
+      {
+        var js, fjs = d.getElementsByTagName(s)[0],
+          p = /^http:/.test(d.location) ? 'http' : 'https';
+        if (!d.getElementById(id))
+        {
+          js = d.createElement(s);
+          js.id = id;
+          js.src = p + "://platform.twitter.com/widgets.js";
+          fjs.parentNode.insertBefore(js, fjs);
+        }
+      }(document, "script", "twitter-wjs");
+    </script>
+    <script src="scripts/vendor.js?v=59979afcfa9df4cbb372c8983f5f4a02" inline></script>
+    <script src="scripts/app.js?v=f315a799c4da58c7777c9d854f5e3861" inline></script>
+    <!-- partial: notifications -->
+    <script>
+      setTimeout(function()
+      {
+        $(document).ready(function()
+        {
+          $.notify('18 more people are currently looking at tickets for this match');
+        });
+      }, 2000);
+    </script>
+    <!-- endpartial: notifications -->
+    <script>
+      window.LTF_MOCKED_API = true
+    </script>
+  </body>
+</html>
