@@ -3,7 +3,7 @@
   "nav": [
     {
       "name": "About",
-      "url": "/about"
+      "url": "about"
     }
   ]
 }

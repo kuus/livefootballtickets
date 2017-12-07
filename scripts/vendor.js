@@ -13,7 +13,26 @@
 
  * MIT License
  */
-!function(t,e,n){function i(t,e){return typeof t===e}function o(){return"function"!=typeof e.createElement?e.createElement(arguments[0]):p?e.createElementNS.call(e,"http://www.w3.org/2000/svg",arguments[0]):e.createElement.apply(e,arguments)}function s(){var t=e.body;return t||(t=o(p?"svg":"body"),t.fake=!0),t}function r(t,n,i,r){var a,l,c,u,p="modernizr",h=o("div"),f=s();if(parseInt(i,10))for(;i--;)c=o("div"),c.id=r?r[i]:p+(i+1),h.appendChild(c);return a=o("style"),a.type="text/css",a.id="s"+p,(f.fake?f:h).appendChild(a),f.appendChild(h),a.styleSheet?a.styleSheet.cssText=t:a.appendChild(e.createTextNode(t)),h.id=p,f.fake&&(f.style.background="",f.style.overflow="hidden",u=d.style.overflow,d.style.overflow="hidden",d.appendChild(f)),l=n(h,t),f.fake?(f.parentNode.removeChild(f),d.style.overflow=u,d.offsetHeight):h.parentNode.removeChild(h),!!l}var a=[],l={_version:"3.5.0",_config:{classPrefix:"",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(t,e){var n=this;setTimeout(function(){e(n[t])},0)},addTest:function(t,e,n){a.push({name:t,fn:e,options:n})},addAsyncTest:function(t){a.push({name:null,fn:t})}},c=function(){};c.prototype=l,c=new c;var u=[],d=e.documentElement,p="svg"===d.nodeName.toLowerCase(),h=function(){var e=t.matchMedia||t.msMatchMedia;return e?function(t){var n=e(t);return n&&n.matches||!1}:function(e){var n=!1;return r("@media "+e+" { #modernizr { position: absolute; } }",function(e){n="absolute"==(t.getComputedStyle?t.getComputedStyle(e,null):e.currentStyle).position}),n}}();l.mq=h,c.addTest("svg",!!e.createElementNS&&!!e.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect),function(){var t,e,n,o,s,r,l;for(var d in a)if(a.hasOwnProperty(d)){if(t=[],e=a[d],e.name&&(t.push(e.name.toLowerCase()),e.options&&e.options.aliases&&e.options.aliases.length))for(n=0;n<e.options.aliases.length;n++)t.push(e.options.aliases[n].toLowerCase());for(o=i(e.fn,"function")?e.fn():e.fn,s=0;s<t.length;s++)r=t[s],l=r.split("."),1===l.length?c[l[0]]=o:(!c[l[0]]||c[l[0]]instanceof Boolean||(c[l[0]]=new Boolean(c[l[0]])),c[l[0]][l[1]]=o),u.push((o?"":"no-")+l.join("-"))}}(),function(t){var e=d.className,n=c._config.classPrefix||"";if(p&&(e=e.baseVal),c._config.enableJSClass){var i=RegExp("(^|\\s)"+n+"no-js(\\s|$)");e=e.replace(i,"$1"+n+"js$2")}c._config.enableClasses&&(e+=" "+n+t.join(" "+n),p?d.className.baseVal=e:d.className=e)}(u),delete l.addTest,delete l.addAsyncTest;for(var f=0;f<c._q.length;f++)c._q[f]();t.Modernizr=c}(window,document),/*!
+!function(t,e,n){function i(t,e){return typeof t===e}function o(){return"function"!=typeof e.createElement?e.createElement(arguments[0]):p?e.createElementNS.call(e,"http://www.w3.org/2000/svg",arguments[0]):e.createElement.apply(e,arguments)}function s(){var t=e.body;return t||(t=o(p?"svg":"body"),t.fake=!0),t}function r(t,n,i,r){var a,l,c,u,p="modernizr",h=o("div"),f=s();if(parseInt(i,10))for(;i--;)c=o("div"),c.id=r?r[i]:p+(i+1),h.appendChild(c);return a=o("style"),a.type="text/css",a.id="s"+p,(f.fake?f:h).appendChild(a),f.appendChild(h),a.styleSheet?a.styleSheet.cssText=t:a.appendChild(e.createTextNode(t)),h.id=p,f.fake&&(f.style.background="",f.style.overflow="hidden",u=d.style.overflow,d.style.overflow="hidden",d.appendChild(f)),l=n(h,t),f.fake?(f.parentNode.removeChild(f),d.style.overflow=u,d.offsetHeight):h.parentNode.removeChild(h),!!l}var a=[],l={_version:"3.5.0",_config:{classPrefix:"",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(t,e){var n=this;setTimeout(function(){e(n[t])},0)},addTest:function(t,e,n){a.push({name:t,fn:e,options:n})},addAsyncTest:function(t){a.push({name:null,fn:t})}},c=function(){};c.prototype=l,c=new c;var u=[],d=e.documentElement,p="svg"===d.nodeName.toLowerCase(),h=function(){var e=t.matchMedia||t.msMatchMedia;return e?function(t){var n=e(t);return n&&n.matches||!1}:function(e){var n=!1;return r("@media "+e+" { #modernizr { position: absolute; } }",function(e){n="absolute"==(t.getComputedStyle?t.getComputedStyle(e,null):e.currentStyle).position}),n}}();l.mq=h,/*!
+{
+  "name": "SVG",
+  "property": "svg",
+  "caniuse": "svg",
+  "tags": ["svg"],
+  "authors": ["Erik Dahlstrom"],
+  "polyfills": [
+    "svgweb",
+    "raphael",
+    "amplesdk",
+    "canvg",
+    "svg-boilerplate",
+    "sie",
+    "dojogfx",
+    "fabricjs"
+  ]
+}
+!*/
+c.addTest("svg",!!e.createElementNS&&!!e.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect),function(){var t,e,n,o,s,r,l;for(var d in a)if(a.hasOwnProperty(d)){if(t=[],e=a[d],e.name&&(t.push(e.name.toLowerCase()),e.options&&e.options.aliases&&e.options.aliases.length))for(n=0;n<e.options.aliases.length;n++)t.push(e.options.aliases[n].toLowerCase());for(o=i(e.fn,"function")?e.fn():e.fn,s=0;s<t.length;s++)r=t[s],l=r.split("."),1===l.length?c[l[0]]=o:(!c[l[0]]||c[l[0]]instanceof Boolean||(c[l[0]]=new Boolean(c[l[0]])),c[l[0]][l[1]]=o),u.push((o?"":"no-")+l.join("-"))}}(),function(t){var e=d.className,n=c._config.classPrefix||"";if(p&&(e=e.baseVal),c._config.enableJSClass){var i=RegExp("(^|\\s)"+n+"no-js(\\s|$)");e=e.replace(i,"$1"+n+"js$2")}c._config.enableClasses&&(e+=" "+n+t.join(" "+n),p?d.className.baseVal=e:d.className=e)}(u),delete l.addTest,delete l.addAsyncTest;for(var f=0;f<c._q.length;f++)c._q[f]();t.Modernizr=c}(window,document),/*!
  * jQuery JavaScript Library v3.1.1
  * https://jquery.com/
  *
